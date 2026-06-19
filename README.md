@@ -1,6 +1,7 @@
+
 # 🤖 Assistente Virtual com Inteligência Artificial - Desafio DIO
 
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/SEU_LINK_AQUI)
+https://colab.research.google.com/drive/1jyZNEyoFyGWj7XVXQIcOd-pEXuIWiFJt?authuser=1
 
 ## 📌 OBJETIVO
 
@@ -34,3 +35,43 @@ Desenvolver um assistente virtual que utiliza técnicas de Processamento de Ling
 ---
 
 ## 📊 ESTRUTURA DO CÓDIGO
+
+assistente-virtual-dio/
+│
+├── assistente_virtual.ipynb # Notebook principal
+├── README.md # Documentação
+│
+└── funções/
+├── falar() → Converte texto em áudio
+├── ouvir() → Captura e transcreve voz
+├── processar() → Interpreta e executa ações
+└── main() → Loop principal
+
+
+---
+
+## 💡 DIFERENCIAIS
+
+- **100% online** - Rodando no Google Colab, sem instalação
+- **Voz ou texto** - Duas formas de interação
+- **Código modular** - Fácil de entender e expandir
+- **Respostas inteligentes** - Busca informações em tempo real
+
+---
+
+## 🚀 COMO EXECUTAR
+
+### Opção 1: Google Colab (Recomendado)
+
+1. Acesse o link: https://colab.research.google.com/drive/1jyZNEyoFyGWj7XVXQIcOd-pEXuIWiFJt?authuser=1
+2. Clique em **"Runtime" > "Run all"**
+3. Digite seus comandos ou use o microfone
+
+### Opção 2: Localmente
+
+```bash
+# Instalar dependências
+pip install gtts speechrecognition pydub wikipedia
+
+# Executar o notebook
+jupyter notebook assistente_virtual.ipynbhttps://colab.research.google.com/drive/1jyZNEyoFyGWj7XVXQIcOd-pEXuIWiFJt?authuser=1
