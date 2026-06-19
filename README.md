@@ -59,19 +59,3 @@ assistente-virtual-dio/
 
 ---
 
-## 🚀 COMO EXECUTAR
-
-### Opção 1: Google Colab (Recomendado)
-
-1. Acesse o link: https://colab.research.google.com/drive/1jyZNEyoFyGWj7XVXQIcOd-pEXuIWiFJt?authuser=1
-2. Clique em **"Runtime" > "Run all"**
-3. Digite seus comandos ou use o microfone
-
-### Opção 2: Localmente
-
-```bash
-# Instalar dependências
-pip install gtts speechrecognition pydub wikipedia
-
-# Executar o notebook
-jupyter notebook assistente_virtual.ipynbhttps://colab.research.google.com/drive/1jyZNEyoFyGWj7XVXQIcOd-pEXuIWiFJt?authuser=1
